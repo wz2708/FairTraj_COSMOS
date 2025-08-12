@@ -37,8 +37,8 @@ def train(cfg):
     #     dirpath=f'./unitraj_ckpt/{cfg.exp_name}'
     # )
     checkpoint_callback = ModelCheckpoint(
-        monitor='val/val_FDE',  # Replace with your validation metric
-        filename='{epoch}-{val/val_FDE:.2f}',
+        monitor='val/brier_fde',  # Replace with your validation metric
+        filename='{epoch}-{val/brier_fde:.2f}',
         save_top_k=1,
         mode='min',  # 'min' for loss/error, 'max' for accuracy
         dirpath=f'./unitraj_ckpt/{cfg.exp_name}'

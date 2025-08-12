@@ -5,7 +5,7 @@ model_name: wayformer
 use_map_image: False
 use_map_lanes: True
 num_modes: 6
-num_agent_feature: 27
+num_agent_feature: 26
 num_map_feature: 29
 hidden_size: 128 #256
 num_encoder_layers: 2
@@ -27,8 +27,8 @@ optimizer: AdamW #According to PyTorch naming
 scheduler: multistep # plateau, multistep
 ewc_lambda: 2000
 grad_clip_norm: 5
-train_batch_size: 14 #32 #128
-eval_batch_size: 64  #512 #32 #128
+train_batch_size: 48 #32 #128
+eval_batch_size: 48 #512 #32 #128
 
 # data related
 max_num_agents: 32
