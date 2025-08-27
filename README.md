@@ -90,11 +90,11 @@ bash scripts/convert_to_nuscenes_format.sh
 ```
 ## 3. Training
 ```bash
-python train.py --model wayformer --protocol C
+python unitraj/train.py --model wayformer --protocol C
 ```
 ## 4. Evaluation
 ```bash
-python evaluate.py --checkpoint ckpt.pt --protocol A
+python unitraj/evaluate.py --checkpoint ckpt.pt --protocol A
 ```
 ## 5. Results  
 
