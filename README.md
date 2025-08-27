@@ -3,7 +3,7 @@
 **ZKLab, Columbia University**  
 Wangshu Zhu (wz2708)  
 
-[**Introduction Slides**](docs/Diagnostic_MultiAgents.pptx)  |  [**Paper**](docs/Technical_report.pdf)  
+[**Introduction Slides**](docs/FairTraj.pptx)  |  [**Paper**](docs/FairTraj.pdf)  
 ---
 
 ## 🔑 Overview  
@@ -15,7 +15,7 @@ Trajectory prediction in autonomous driving is frequently biased by how missing 
 - **Calibration-aware evaluation** with **Brier-FDE**, complementing conventional ADE/FDE/Miss Rate.  
 - **Controlled experiments** on three representative architectures (AutoBot, Wayformer, MTR) showing that **Train-Rich, Eval-Pure (Protocol C)** yields the most reliable trade-off between accuracy and calibration.  
 
-![**workflow**](docs/workflow.png)
+![**workflow**](docs/FairTraj.png)
 ---
 
 ## 📂 Dataset: COSMOS @ NYC Intersection  
